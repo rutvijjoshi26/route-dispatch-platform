@@ -1,0 +1,140 @@
+{
+  "generatedAt" : "2026-10-21T19:56:30.389896-05:00",
+  "hardware" : {
+    "cpu" : "Apple M2",
+    "logicalCores" : 8,
+    "os" : "Mac OS X 26.5.1 aarch64",
+    "java" : "OpenJDK 64-Bit Server VM 21.0.13",
+    "maxHeapMb" : 2048
+  },
+  "options" : {
+    "provider" : "osrm",
+    "osrmUrl" : "http://localhost:5001",
+    "seed" : 42,
+    "stops" : 200,
+    "vans" : 8,
+    "solveSeconds" : 60,
+    "replanRuns" : 10,
+    "outDir" : "benchmarks/results"
+  },
+  "matrix" : {
+    "buildMillis" : 1794,
+    "locations" : 201,
+    "pairs" : 40401,
+    "provider" : "osrm"
+  },
+  "quality" : {
+    "note" : "One seeded day (seed 42), one run. Round-robin is a deliberately naive baseline that ignores capacity, windows and shifts; nearest-neighbor is greedy but feasibility-aware. Compare distances together with each plan's on-time, unassigned, overflow and overrun figures.",
+    "timefoldFeasible" : true,
+    "roundRobin" : {
+      "stops" : 200,
+      "onTimeStops" : 87,
+      "lateStops" : 113,
+      "unassignedStops" : 0,
+      "totalMeters" : 1889329,
+      "totalTravelSeconds" : 146512,
+      "maxLateSeconds" : 28941,
+      "capacityOverflowUnits" : 5,
+      "shiftOverrunSeconds" : 61498,
+      "vehiclesUsed" : 8
+    },
+    "nearestNeighbor" : {
+      "stops" : 200,
+      "onTimeStops" : 174,
+      "lateStops" : 26,
+      "unassignedStops" : 0,
+      "totalMeters" : 597183,
+      "totalTravelSeconds" : 55052,
+      "maxLateSeconds" : 25199,
+      "capacityOverflowUnits" : 0,
+      "shiftOverrunSeconds" : 6171,
+      "vehiclesUsed" : 8
+    },
+    "timefold" : {
+      "stops" : 200,
+      "onTimeStops" : 200,
+      "lateStops" : 0,
+      "unassignedStops" : 0,
+      "totalMeters" : 334154,
+      "totalTravelSeconds" : 35625,
+      "maxLateSeconds" : 0,
+      "capacityOverflowUnits" : 0,
+      "shiftOverrunSeconds" : 0,
+      "vehiclesUsed" : 8
+    },
+    "timefoldScore" : "0hard/0medium/-35625soft",
+    "distanceReductionVsRoundRobinPct" : 82.3,
+    "distanceReductionVsNearestNeighborPct" : 44.0,
+    "driveTimeReductionVsRoundRobinPct" : 75.7,
+    "driveTimeReductionVsNearestNeighborPct" : 35.3
+  },
+  "convergence" : {
+    "totalSolveMillis" : 60041,
+    "bestScoreUpdates" : 309,
+    "firstFeasibleMillis" : 458,
+    "withinOnePercentOfFinalMillis" : 25716,
+    "finalScore" : "0hard/0medium/-35625soft",
+    "checkpoints" : [ {
+      "atMillis" : 1000,
+      "score" : "0hard/0medium/-48925soft",
+      "driveSeconds" : 48925
+    }, {
+      "atMillis" : 2000,
+      "score" : "0hard/0medium/-43469soft",
+      "driveSeconds" : 43469
+    }, {
+      "atMillis" : 5000,
+      "score" : "0hard/0medium/-37701soft",
+      "driveSeconds" : 37701
+    }, {
+      "atMillis" : 10000,
+      "score" : "0hard/0medium/-36938soft",
+      "driveSeconds" : 36938
+    }, {
+      "atMillis" : 20000,
+      "score" : "0hard/0medium/-36218soft",
+      "driveSeconds" : 36218
+    }, {
+      "atMillis" : 30000,
+      "score" : "0hard/0medium/-35807soft",
+      "driveSeconds" : 35807
+    }, {
+      "atMillis" : 60000,
+      "score" : "0hard/0medium/-35625soft",
+      "driveSeconds" : 35625
+    } ]
+  },
+  "replan" : {
+    "runs" : 10,
+    "replanTermination" : "spent 4s or 1s unimproved",
+    "frozenAt" : "12:00",
+    "avgPinnedStopsPerRun" : 105.0,
+    "pinnedPrefixesUnchanged" : true,
+    "insertedOrderOnTimeRuns" : 10,
+    "scope" : "In-process only: incremental travel matrix (one new location, real OSRM calls) plus solve. The API pipeline (snapshot, road geometry, database save, push) is measured by the simulator's replan mode.",
+    "matrixPlusSolveMillis" : {
+      "samples" : 10,
+      "min" : 1509,
+      "median" : 1886,
+      "p95" : 3691,
+      "max" : 3691,
+      "mean" : 2262.3
+    },
+    "matrixMillis" : {
+      "samples" : 10,
+      "min" : 157,
+      "median" : 208,
+      "p95" : 381,
+      "max" : 381,
+      "mean" : 221.3
+    },
+    "solverMillis" : {
+      "samples" : 10,
+      "min" : 1333,
+      "median" : 1650,
+      "p95" : 3311,
+      "max" : 3311,
+      "mean" : 2037.5
+    }
+  }
+}

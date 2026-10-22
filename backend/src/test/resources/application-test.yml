@@ -1,0 +1,16 @@
+dispatch:
+  routing:
+    provider: haversine
+  solver:
+    initial:
+      spent-limit: 2s
+      unimproved-spent-limit: 300ms
+    replan:
+      spent-limit: 1s
+      unimproved-spent-limit: 300ms
+  lateness:
+    check-interval: PT1H
+logging:
+  level:
+    org.testcontainers: WARN
+    com.github.dockerjava: WARN

@@ -1,0 +1,62 @@
+# Local stack: PostGIS, OSRM (Chicago roads), backend API and dispatcher UI.
+# Run `make setup` once first; it downloads the map extract and builds the OSRM dataset in data/osm.
+services:
+  postgis:
+    image: imresamu/postgis:17-3.5
+    environment:
+      POSTGRES_DB: dispatch
+      POSTGRES_USER: dispatch
+      POSTGRES_PASSWORD: dispatch
+    ports:
+      - "5433:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U dispatch -d dispatch"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+  osrm:
+    image: ghcr.io/project-osrm/osrm-backend:v5.27.1
+    command: osrm-routed --algorithm mld --max-table-size 1000 /data/chicago.osrm
+    volumes:
+      - ./data/osm:/data:ro
+    ports:
+      - "5001:5000"
+
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    environment:
+      SPRING_PROFILES_ACTIVE: demo
+      DB_URL: jdbc:postgresql://postgis:5432/dispatch
+      DB_USER: dispatch
+      DB_PASSWORD: dispatch
+      ROUTING_PROVIDER: ${ROUTING_PROVIDER:-osrm}
+      OSRM_URL: http://osrm:5000
+      # Local-only signing key; set JWT_SECRET in your shell to override.
+      JWT_SECRET: ${JWT_SECRET:-compose-local-signing-key-not-for-production-use}
+      ALLOWED_ORIGINS: http://localhost:3000,http://localhost:5173
+      # Extra vans/drivers for `make bench-api` (ping ingest load test); 0 = none.
+      LOAD_TEST_DRIVERS: ${LOAD_TEST_DRIVERS:-0}
+    ports:
+      - "8080:8080"
+    depends_on:
+      postgis:
+        condition: service_healthy
+      osrm:
+        condition: service_started
+
+  frontend:
+    build:
+      context: frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      backend:
+        condition: service_healthy
+
+volumes:
+  pgdata:

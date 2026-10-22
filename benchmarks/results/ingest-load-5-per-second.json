@@ -1,0 +1,29 @@
+{
+  "generatedAt" : "2026-10-22T00:50:10.590730Z",
+  "api" : "http://localhost:8080",
+  "pingsPerDriverPerSecond" : 5.0,
+  "measuredSecondsPerLevel" : 60,
+  "warmupSecondsPerLevel" : 10,
+  "levels" : [ {
+    "drivers" : 400,
+    "offeredPingsPerSecond" : 2000.0,
+    "acceptedPingsPerSecond" : 2041.0,
+    "errors" : 0,
+    "httpLatency" : {
+      "count" : 122457,
+      "p50Millis" : 129.276667,
+      "p95Millis" : 432.4965,
+      "p99Millis" : 710.581291,
+      "maxMillis" : 2142.477458,
+      "meanMillis" : 147.74
+    },
+    "pingToDispatcherLatency" : {
+      "count" : 122458,
+      "p50Millis" : 129.236,
+      "p95Millis" : 432.022,
+      "p99Millis" : 709.794,
+      "maxMillis" : 2141.263,
+      "meanMillis" : 147.59
+    }
+  } ]
+}

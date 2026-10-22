@@ -1,0 +1,110 @@
+{
+  "generatedAt" : "2026-10-22T00:56:12.705262Z",
+  "runs" : 10,
+  "ordersAssigned" : 10,
+  "endToEnd" : {
+    "count" : 10,
+    "p50Millis" : 1479.938458,
+    "p95Millis" : 2467.521541,
+    "p99Millis" : 2467.521541,
+    "maxMillis" : 2467.521541,
+    "meanMillis" : 1735.93
+  },
+  "serverPipeline" : {
+    "count" : 10,
+    "p50Millis" : 1461.0,
+    "p95Millis" : 2367.0,
+    "p99Millis" : 2367.0,
+    "maxMillis" : 2367.0,
+    "meanMillis" : 1702.5
+  },
+  "solver" : {
+    "count" : 10,
+    "p50Millis" : 1026.0,
+    "p95Millis" : 1719.0,
+    "p99Millis" : 1719.0,
+    "maxMillis" : 1719.0,
+    "meanMillis" : 1229.9
+  },
+  "samples" : [ {
+    "changedVehicles" : 7,
+    "pinnedStops" : 28,
+    "serverMillis" : 2367,
+    "assigned" : true,
+    "run" : 1,
+    "solverMillis" : 1664,
+    "endToEndMillis" : 2467
+  }, {
+    "changedVehicles" : 6,
+    "pinnedStops" : 28,
+    "serverMillis" : 2238,
+    "assigned" : true,
+    "run" : 2,
+    "solverMillis" : 1448,
+    "endToEndMillis" : 2303
+  }, {
+    "changedVehicles" : 3,
+    "pinnedStops" : 29,
+    "serverMillis" : 1777,
+    "assigned" : true,
+    "run" : 3,
+    "solverMillis" : 1197,
+    "endToEndMillis" : 1799
+  }, {
+    "changedVehicles" : 1,
+    "pinnedStops" : 29,
+    "serverMillis" : 1367,
+    "assigned" : true,
+    "run" : 4,
+    "solverMillis" : 1017,
+    "endToEndMillis" : 1400
+  }, {
+    "changedVehicles" : 2,
+    "pinnedStops" : 29,
+    "serverMillis" : 1461,
+    "assigned" : true,
+    "run" : 5,
+    "solverMillis" : 1026,
+    "endToEndMillis" : 1479
+  }, {
+    "changedVehicles" : 1,
+    "pinnedStops" : 29,
+    "serverMillis" : 1451,
+    "assigned" : true,
+    "run" : 6,
+    "solverMillis" : 1016,
+    "endToEndMillis" : 1469
+  }, {
+    "changedVehicles" : 1,
+    "pinnedStops" : 29,
+    "serverMillis" : 1396,
+    "assigned" : true,
+    "run" : 7,
+    "solverMillis" : 1007,
+    "endToEndMillis" : 1415
+  }, {
+    "changedVehicles" : 1,
+    "pinnedStops" : 29,
+    "serverMillis" : 1282,
+    "assigned" : true,
+    "run" : 8,
+    "solverMillis" : 1006,
+    "endToEndMillis" : 1296
+  }, {
+    "changedVehicles" : 5,
+    "pinnedStops" : 30,
+    "serverMillis" : 1543,
+    "assigned" : true,
+    "run" : 9,
+    "solverMillis" : 1199,
+    "endToEndMillis" : 1565
+  }, {
+    "changedVehicles" : 7,
+    "pinnedStops" : 30,
+    "serverMillis" : 2143,
+    "assigned" : true,
+    "run" : 10,
+    "solverMillis" : 1719,
+    "endToEndMillis" : 2161
+  } ]
+}

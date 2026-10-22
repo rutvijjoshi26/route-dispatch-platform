@@ -1,0 +1,90 @@
+spring:
+  application:
+    name: route-dispatch
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/dispatch}
+    username: ${DB_USER:dispatch}
+    password: ${DB_PASSWORD:dispatch}
+    hikari:
+      maximum-pool-size: ${DB_POOL_SIZE:20}
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate
+  flyway:
+    enabled: true
+  servlet:
+    multipart:
+      max-file-size: 5MB
+  threads:
+    virtual:
+      enabled: true
+
+server:
+  port: ${PORT:8080}
+  shutdown: graceful
+  compression:
+    # Plan views carry full road geometry for every route.
+    enabled: true
+    mime-types: application/json,application/problem+json
+    min-response-size: 2KB
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+  endpoint:
+    health:
+      probes:
+        enabled: true
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+  api-docs:
+    path: /v3/api-docs
+
+dispatch:
+  demo:
+    # Only used by the "demo" profile to create local demo logins.
+    dispatcher-password: ${DEMO_DISPATCHER_PASSWORD:dispatch-demo}
+    driver-password: ${DEMO_DRIVER_PASSWORD:driver-demo}
+    # Extra vans and drivers (load1..N@demo.local) for the ping-ingest benchmark; 0 disables.
+    load-test-drivers: ${LOAD_TEST_DRIVERS:0}
+  security:
+    # Local development default only. Docker Compose and any real deployment must set JWT_SECRET.
+    jwt-secret: ${JWT_SECRET:local-development-secret-change-me-0123456789abcdef}
+    token-ttl: 12h
+    allowed-origins: ${ALLOWED_ORIGINS:http://localhost:5173,http://localhost:3000}
+  routing:
+    provider: ${ROUTING_PROVIDER:osrm}
+    osrm:
+      base-url: ${OSRM_URL:http://localhost:5001}
+      table-chunk-size: 100
+      timeout: 20s
+    haversine:
+      circuity-factor: 1.35
+      average-speed-kph: 28
+    cache-max-pairs: 500000
+  service-area:
+    # Coverage of the Chicago road extract used for OSRM.
+    min-lat: 41.40
+    max-lat: 42.40
+    min-lon: -88.40
+    max-lon: -87.30
+  solver:
+    initial:
+      spent-limit: 30s
+      unimproved-spent-limit: 8s
+    replan:
+      spent-limit: 4s
+      unimproved-spent-limit: 1s
+  lateness:
+    threshold: 10m
+    vehicle-cooldown: 30m
+    check-interval: PT5S
+
+logging:
+  level:
+    ai.timefold.solver: WARN

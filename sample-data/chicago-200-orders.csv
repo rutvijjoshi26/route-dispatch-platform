@@ -1,0 +1,201 @@
+order_ref,customer,address,lat,lon,window_start,window_end,size
+CHI-1001,"Michael Williams","3890 N Southport Ave, Chicago, IL",41.95237,-87.661782,09:00,17:00,SMALL
+CHI-1002,"Fatima Chen","4502 N Southport Ave, Chicago, IL",41.963449,-87.661782,13:00,17:00,MEDIUM
+CHI-1003,"Carlos Williams","3134 N Kedzie Ave, Chicago, IL",41.938684,-87.705472,13:00,17:00,SMALL
+CHI-1004,"Grace Williams","2129 W Armitage Ave, Chicago, IL",41.918156,-87.679476,09:00,17:00,SMALL
+CHI-1005,"Michael Rivera","1716 W 18th St, Chicago, IL",41.849365,-87.669452,09:00,12:00,MEDIUM
+CHI-1006,"Carlos Chen","3068 S Sheffield Ave, Chicago, IL",41.826411,-87.652073,13:00,17:00,MEDIUM
+CHI-1007,"Daniel Johnson","1076 N Southport Ave, Chicago, IL",41.901429,-87.661782,09:00,17:00,SMALL
+CHI-1008,"Kowalski Bike Shop","2893 W Chicago Ave, Chicago, IL",41.896432,-87.69802,10:00,12:00,SMALL
+CHI-1009,"Michael Murphy","1438 N Kimball Ave, Chicago, IL",41.907982,-87.710327,09:00,17:00,LARGE
+CHI-1010,"Sofia Chen","3250 N California Ave, Chicago, IL",41.940784,-87.695763,09:00,11:00,LARGE
+CHI-1011,"Fatima Kim","2905 N Kedzie Ave, Chicago, IL",41.934539,-87.705472,09:00,12:00,MEDIUM
+CHI-1012,"Kevin Kim","4483 S Leavitt St, Chicago, IL",41.800795,-87.6812,09:00,11:00,SMALL
+CHI-1013,"Priya O'Brien","1943 W Armitage Ave, Chicago, IL",41.918156,-87.674961,09:00,17:00,MEDIUM
+CHI-1014,"Okafor Bookstore","1126 W Lawrence Ave, Chicago, IL",41.968844,-87.655131,09:00,12:00,SMALL
+CHI-1015,"Hannah Chen","184 N Ashland Ave, Chicago, IL",41.885281,-87.666636,09:00,12:00,SMALL
+CHI-1016,"Rivera Print Lab","1439 N Damen Ave, Chicago, IL",41.908,-87.676345,09:00,17:00,MEDIUM
+CHI-1017,"James Kowalski","742 W Fullerton Ave, Chicago, IL",41.925397,-87.64581,09:00,11:00,SMALL
+CHI-1018,"Maria Chen","1319 N Wolcott Ave, Chicago, IL",41.905828,-87.673918,14:00,16:00,SMALL
+CHI-1019,"James Rodriguez","2716 N Kedzie Ave, Chicago, IL",41.931117,-87.705472,09:00,17:00,MEDIUM
+CHI-1020,"Kevin Nguyen","1983 N Western Ave, Chicago, IL",41.917848,-87.686054,10:00,12:00,LARGE
+CHI-1021,"Carlos Nguyen","2583 N Wolcott Ave, Chicago, IL",41.92871,-87.673918,09:00,11:00,MEDIUM
+CHI-1022,"Emily Okafor","4226 N Pulaski Rd, Chicago, IL",41.958453,-87.72489,13:00,15:00,MEDIUM
+CHI-1023,"Carlos Chen","2008 N Central Park Ave, Chicago, IL",41.9183,-87.715181,13:00,17:00,LARGE
+CHI-1024,"David Rivera","3361 N Racine Ave, Chicago, IL",41.942794,-87.656927,09:00,17:00,SMALL
+CHI-1025,"Luis Kowalski","2167 W Cermak Rd, Chicago, IL",41.842124,-87.680399,09:00,17:00,SMALL
+CHI-1026,"Rivera Hardware","4682 S Racine Ave, Chicago, IL",41.797193,-87.656927,09:00,11:00,SMALL
+CHI-1027,"Grace Lopez","2757 W 26th St, Chicago, IL",41.834883,-87.694719,11:00,13:00,MEDIUM
+CHI-1028,"David Lopez","1093 E 51st St, Chicago, IL",41.789626,-87.60127,13:00,17:00,SMALL
+CHI-1029,"Luis Hernandez","2817 N Sacramento Ave, Chicago, IL",41.932946,-87.700618,09:00,17:00,LARGE
+CHI-1030,"Priya Patel","3053 N Southport Ave, Chicago, IL",41.937218,-87.661782,13:00,17:00,SMALL
+CHI-1031,"Priya Lopez","4453 N Kimball Ave, Chicago, IL",41.962562,-87.710327,12:00,14:00,LARGE
+CHI-1032,"Tyrone Kowalski","3268 N Halsted St, Chicago, IL",41.94111,-87.647218,12:00,14:00,LARGE
+CHI-1033,"Kevin Johnson","3557 W Lawrence Ave, Chicago, IL",41.968844,-87.714137,09:00,12:00,MEDIUM
+CHI-1034,"Daniel Chen","3092 N Kedzie Ave, Chicago, IL",41.937924,-87.705472,13:00,17:00,SMALL
+CHI-1035,"Kevin Nguyen","5140 S Ellis Ave, Chicago, IL",41.788901,-87.603527,09:00,17:00,SMALL
+CHI-1036,"James O'Brien","2884 S Halsted St, Chicago, IL",41.829741,-87.647218,09:00,12:00,LARGE
+CHI-1037,"Mei Murphy","2225 S Southport Ave, Chicago, IL",41.841671,-87.661782,13:00,17:00,SMALL
+CHI-1038,"Rodriguez Community Pantry","2636 W Fullerton Ave, Chicago, IL",41.925397,-87.691782,13:00,17:00,MEDIUM
+CHI-1039,"Patel Deli","4903 S Southport Ave, Chicago, IL",41.793192,-87.661782,11:00,13:00,SMALL
+CHI-1040,"Maria Hernandez","3728 W Lawrence Ave, Chicago, IL",41.968844,-87.718288,13:00,17:00,SMALL
+CHI-1041,"Michael Brown","2819 N Racine Ave, Chicago, IL",41.932982,-87.656927,09:00,17:00,LARGE
+CHI-1042,"Michael Rivera","3055 N Sheffield Ave, Chicago, IL",41.937254,-87.652073,09:00,12:00,SMALL
+CHI-1043,"Tyrone Kim","100 S Racine Ave, Chicago, IL",41.88014,-87.656927,15:00,17:00,LARGE
+CHI-1044,"Emily Novak","1422 W Armitage Ave, Chicago, IL",41.918156,-87.662316,09:00,17:00,SMALL
+CHI-1045,"Mei Rodriguez","1373 W Addison St, Chicago, IL",41.94712,-87.661126,15:00,17:00,SMALL
+CHI-1046,"David Novak","3443 N Kimball Ave, Chicago, IL",41.944278,-87.710327,10:00,12:00,SMALL
+CHI-1047,"Sam Novak","1392 W Belmont Ave, Chicago, IL",41.939879,-87.661587,13:00,17:00,SMALL
+CHI-1048,"Mei Garcia","245 N Southport Ave, Chicago, IL",41.886385,-87.661782,13:00,17:00,SMALL
+CHI-1049,"Elena Novak","3523 N Halsted St, Chicago, IL",41.945726,-87.647218,09:00,17:00,MEDIUM
+CHI-1050,"Sam Hernandez","789 N Kimball Ave, Chicago, IL",41.896233,-87.710327,09:00,17:00,LARGE
+CHI-1051,"Tyrone O'Brien","2641 N Ashland Ave, Chicago, IL",41.92976,-87.666636,09:00,17:00,SMALL
+CHI-1052,"Tyrone Nguyen","100 N Halsted St, Chicago, IL",41.88376,-87.647218,13:00,15:00,SMALL
+CHI-1053,"Grace Williams","1873 N Western Ave, Chicago, IL",41.915857,-87.686054,09:00,12:00,SMALL
+CHI-1054,"Hernandez Bakery","1696 N Ashland Ave, Chicago, IL",41.912652,-87.666636,09:00,11:00,SMALL
+CHI-1055,"Mei Novak","1488 N Central Park Ave, Chicago, IL",41.908887,-87.715181,09:00,12:00,MEDIUM
+CHI-1056,"Emily Lopez","789 W Belmont Ave, Chicago, IL",41.939879,-87.646951,12:00,14:00,SMALL
+CHI-1057,"Elena Garcia","5469 S Woodlawn Ave, Chicago, IL",41.782946,-87.598673,09:00,11:00,MEDIUM
+CHI-1058,"Carlos Kowalski","4495 S Damen Ave, Chicago, IL",41.800578,-87.676345,09:00,17:00,SMALL
+CHI-1059,"Luis Chen","1965 N Ashland Ave, Chicago, IL",41.917522,-87.666636,09:00,12:00,SMALL
+CHI-1060,"Mei Lopez","2344 W Diversey Ave, Chicago, IL",41.932638,-87.684695,09:00,11:00,SMALL
+CHI-1061,"Emily Murphy","2613 S Campbell Ave, Chicago, IL",41.834647,-87.688481,13:00,17:00,SMALL
+CHI-1062,"Lopez Coffee Roasters","1317 N Wolcott Ave, Chicago, IL",41.905791,-87.673918,14:00,16:00,SMALL
+CHI-1063,"Sofia Rodriguez","2379 S Western Ave, Chicago, IL",41.838883,-87.686054,13:00,17:00,SMALL
+CHI-1064,"Rodriguez Print Lab","2721 N Kedzie Ave, Chicago, IL",41.931208,-87.705472,13:00,15:00,MEDIUM
+CHI-1065,"O'Brien Deli","3249 W Fullerton Ave, Chicago, IL",41.925397,-87.706661,09:00,12:00,MEDIUM
+CHI-1066,"Novak Community Pantry","1022 N Wolcott Ave, Chicago, IL",41.900451,-87.673918,09:00,12:00,MEDIUM
+CHI-1067,"Aisha Brown","2473 N Southport Ave, Chicago, IL",41.926718,-87.661782,09:00,17:00,SMALL
+CHI-1068,"Ali Bike Shop","827 W Addison St, Chicago, IL",41.94712,-87.647873,09:00,12:00,MEDIUM
+CHI-1069,"Priya Novak","3782 W Addison St, Chicago, IL",41.94712,-87.719599,09:00,11:00,SMALL
+CHI-1070,"Hannah Okafor","1116 E 51st St, Chicago, IL",41.789626,-87.600712,09:00,17:00,MEDIUM
+CHI-1071,"David O'Brien","2917 N Wolcott Ave, Chicago, IL",41.934756,-87.673918,09:00,17:00,MEDIUM
+CHI-1072,"Luis Ali","4667 N Southport Ave, Chicago, IL",41.966436,-87.661782,13:00,17:00,MEDIUM
+CHI-1073,"Nguyen Bike Shop","3590 N Wolcott Ave, Chicago, IL",41.946939,-87.673918,13:00,15:00,MEDIUM
+CHI-1074,"Maria Lopez","2911 N Kimball Ave, Chicago, IL",41.934647,-87.710327,09:00,11:00,SMALL
+CHI-1075,"Emily Rivera","2670 N Leavitt St, Chicago, IL",41.930285,-87.6812,09:00,12:00,LARGE
+CHI-1076,"James Okafor","1764 N Wolcott Ave, Chicago, IL",41.913883,-87.673918,13:00,17:00,MEDIUM
+CHI-1077,"Sofia Hernandez","1987 W North Ave, Chicago, IL",41.910915,-87.676029,13:00,17:00,MEDIUM
+CHI-1078,"Michael Rodriguez","2922 N Racine Ave, Chicago, IL",41.934846,-87.656927,09:00,17:00,LARGE
+CHI-1079,"Emily Chen","1236 N Hoyne Ave, Chicago, IL",41.904325,-87.678772,13:00,15:00,SMALL
+CHI-1080,"Maria Lopez","3094 W 26th St, Chicago, IL",41.834883,-87.702899,10:00,12:00,SMALL
+CHI-1081,"Fatima Lopez","3440 N Central Park Ave, Chicago, IL",41.944224,-87.715181,12:00,14:00,MEDIUM
+CHI-1082,"Hernandez Yoga Studio","1458 W Fullerton Ave, Chicago, IL",41.925397,-87.663189,09:00,12:00,MEDIUM
+CHI-1083,"Grace Lopez","3098 W 31st St, Chicago, IL",41.825831,-87.702996,14:00,16:00,SMALL
+CHI-1084,"Hernandez Coffee Roasters","1463 W Montrose Ave, Chicago, IL",41.961602,-87.663311,09:00,17:00,SMALL
+CHI-1085,"Priya Okafor","2942 N Southport Ave, Chicago, IL",41.935209,-87.661782,09:00,11:00,MEDIUM
+CHI-1086,"Omar Murphy","3276 N Central Park Ave, Chicago, IL",41.941255,-87.715181,09:00,17:00,LARGE
+CHI-1087,"Maria Hernandez","1661 W Madison St, Chicago, IL",41.88195,-87.668117,09:00,17:00,SMALL
+CHI-1088,"Sofia Novak","2704 W Chicago Ave, Chicago, IL",41.896432,-87.693433,13:00,17:00,SMALL
+CHI-1089,"Brown Flower Shop","1582 W Madison St, Chicago, IL",41.88195,-87.666199,13:00,15:00,SMALL
+CHI-1090,"O'Brien Deli","3520 W Division St, Chicago, IL",41.903673,-87.713239,09:00,17:00,MEDIUM
+CHI-1091,"Sam Brown","740 W 35th St, Chicago, IL",41.81859,-87.645762,13:00,17:00,SMALL
+CHI-1092,"Omar Okafor","2742 N Kimball Ave, Chicago, IL",41.931588,-87.710327,11:00,13:00,SMALL
+CHI-1093,"Grace Rodriguez","5317 S Damen Ave, Chicago, IL",41.785697,-87.676345,15:00,17:00,MEDIUM
+CHI-1094,"Tyrone Williams","2696 W Division St, Chicago, IL",41.903673,-87.693239,09:00,12:00,MEDIUM
+CHI-1095,"Daniel Patel","3267 W Belmont Ave, Chicago, IL",41.939879,-87.707098,11:00,13:00,SMALL
+CHI-1096,"Aisha Garcia","1670 S Southport Ave, Chicago, IL",41.851718,-87.661782,13:00,17:00,MEDIUM
+CHI-1097,"Aisha Novak","100 N Sheffield Ave, Chicago, IL",41.88376,-87.652073,13:00,17:00,LARGE
+CHI-1098,"Johnson Hardware","1023 W Chicago Ave, Chicago, IL",41.896432,-87.652631,09:00,12:00,LARGE
+CHI-1099,"James Williams","3739 N Wolcott Ave, Chicago, IL",41.949636,-87.673918,09:00,17:00,MEDIUM
+CHI-1100,"Sofia Nguyen","3251 S Central Park Ave, Chicago, IL",41.823098,-87.715181,09:00,12:00,SMALL
+CHI-1101,"Ali Dental Studio","2319 N Sheffield Ave, Chicago, IL",41.92393,-87.652073,13:00,17:00,SMALL
+CHI-1102,"Kevin Patel","1361 W Chicago Ave, Chicago, IL",41.896432,-87.660835,09:00,12:00,LARGE
+CHI-1103,"Elena Williams","1211 W North Ave, Chicago, IL",41.910915,-87.657194,13:00,15:00,MEDIUM
+CHI-1104,"Hannah Rodriguez","723 W Belmont Ave, Chicago, IL",41.939879,-87.645349,13:00,17:00,SMALL
+CHI-1105,"Garcia Deli","3783 W Montrose Ave, Chicago, IL",41.961602,-87.719623,12:00,14:00,LARGE
+CHI-1106,"Kevin Kim","1797 W Addison St, Chicago, IL",41.94712,-87.671418,13:00,17:00,SMALL
+CHI-1107,"Kowalski Coffee Roasters","2121 N Ashland Ave, Chicago, IL",41.920346,-87.666636,14:00,16:00,SMALL
+CHI-1108,"Fatima Johnson","3235 N Wolcott Ave, Chicago, IL",41.940513,-87.673918,10:00,12:00,SMALL
+CHI-1109,"Fatima Garcia","1230 N Kimball Ave, Chicago, IL",41.904216,-87.710327,13:00,17:00,SMALL
+CHI-1110,"James Murphy","5305 S Ellis Ave, Chicago, IL",41.785915,-87.603527,13:00,17:00,SMALL
+CHI-1111,"Fatima Ali","1089 E 55th St, Chicago, IL",41.782384,-87.601367,12:00,14:00,LARGE
+CHI-1112,"Sofia Murphy","3313 S Halsted St, Chicago, IL",41.821975,-87.647218,13:00,15:00,MEDIUM
+CHI-1113,"Michael Garcia","1063 W Montrose Ave, Chicago, IL",41.961602,-87.653602,09:00,12:00,MEDIUM
+CHI-1114,"Daniel Chen","4189 N Kimball Ave, Chicago, IL",41.957783,-87.710327,09:00,11:00,MEDIUM
+CHI-1115,"Hannah Nguyen","3823 N California Ave, Chicago, IL",41.951157,-87.695763,09:00,12:00,SMALL
+CHI-1116,"Daniel Kowalski","2706 W Chicago Ave, Chicago, IL",41.896432,-87.693481,10:00,12:00,SMALL
+CHI-1117,"Patel Print Lab","2778 N Ashland Ave, Chicago, IL",41.93224,-87.666636,09:00,12:00,SMALL
+CHI-1118,"Omar Hernandez","4504 N Ashland Ave, Chicago, IL",41.963485,-87.666636,09:00,12:00,SMALL
+CHI-1119,"Okafor Bookstore","3027 W North Ave, Chicago, IL",41.910915,-87.701273,12:00,14:00,MEDIUM
+CHI-1120,"Rivera Yoga Studio","3394 W Addison St, Chicago, IL",41.94712,-87.710181,12:00,14:00,LARGE
+CHI-1121,"Kevin Brown","3306 W Addison St, Chicago, IL",41.94712,-87.708045,13:00,17:00,SMALL
+CHI-1122,"Novak Dental Studio","1658 W Diversey Ave, Chicago, IL",41.932638,-87.668044,13:00,15:00,SMALL
+CHI-1123,"Ali Corner Market","4372 N Sacramento Ave, Chicago, IL",41.961096,-87.700618,13:00,17:00,SMALL
+CHI-1124,"Mei Rivera","812 W Fullerton Ave, Chicago, IL",41.925397,-87.647509,14:00,16:00,MEDIUM
+CHI-1125,"Sam O'Brien","2023 S Leavitt St, Chicago, IL",41.845328,-87.6812,14:00,16:00,SMALL
+CHI-1126,"Hernandez Bike Shop","2106 W 18th St, Chicago, IL",41.849365,-87.678918,12:00,14:00,LARGE
+CHI-1127,"Nguyen Coffee Roasters","3250 S Halsted St, Chicago, IL",41.823116,-87.647218,13:00,17:00,MEDIUM
+CHI-1128,"Elena Nguyen","4623 N Sheffield Ave, Chicago, IL",41.965639,-87.652073,09:00,12:00,SMALL
+CHI-1129,"Priya Rodriguez","1443 W Grand Ave, Chicago, IL",41.891544,-87.662825,09:00,12:00,SMALL
+CHI-1130,"James Novak","3095 N Ashland Ave, Chicago, IL",41.937978,-87.666636,13:00,17:00,SMALL
+CHI-1131,"Carlos Rivera","109 N Sheffield Ave, Chicago, IL",41.883923,-87.652073,09:00,17:00,LARGE
+CHI-1132,"Grace Chen","1244 W Diversey Ave, Chicago, IL",41.932638,-87.657995,14:00,16:00,MEDIUM
+CHI-1133,"Aisha Novak","3500 S Sheffield Ave, Chicago, IL",41.81859,-87.652073,09:00,17:00,MEDIUM
+CHI-1134,"Okafor Bakery","283 N Racine Ave, Chicago, IL",41.887073,-87.656927,13:00,17:00,SMALL
+CHI-1135,"Novak Hardware","239 N Sheffield Ave, Chicago, IL",41.886277,-87.652073,09:00,12:00,MEDIUM
+CHI-1136,"Aisha Ali","4955 N Halsted St, Chicago, IL",41.971649,-87.647218,15:00,17:00,SMALL
+CHI-1137,"Brown Community Pantry","3576 S Racine Ave, Chicago, IL",41.817214,-87.656927,09:00,12:00,MEDIUM
+CHI-1138,"Tyrone Nguyen","2058 W North Ave, Chicago, IL",41.910915,-87.677753,14:00,16:00,SMALL
+CHI-1139,"Brown Hardware","4722 S Leavitt St, Chicago, IL",41.796468,-87.6812,09:00,17:00,SMALL
+CHI-1140,"Hannah Kowalski","1058 W Fullerton Ave, Chicago, IL",41.925397,-87.65348,13:00,17:00,SMALL
+CHI-1141,"Grace Garcia","1386 S Racine Ave, Chicago, IL",41.856859,-87.656927,09:00,12:00,MEDIUM
+CHI-1142,"Kevin Brown","1934 N California Ave, Chicago, IL",41.916961,-87.695763,09:00,12:00,LARGE
+CHI-1143,"Maria Williams","2180 W North Ave, Chicago, IL",41.910915,-87.680714,09:00,11:00,MEDIUM
+CHI-1144,"Carlos Murphy","3102 W North Ave, Chicago, IL",41.910915,-87.703093,10:00,12:00,MEDIUM
+CHI-1145,"Lopez Yoga Studio","2464 S Kimball Ave, Chicago, IL",41.837345,-87.710327,09:00,12:00,SMALL
+CHI-1146,"Kowalski Hardware","1320 W Diversey Ave, Chicago, IL",41.932638,-87.65984,09:00,17:00,SMALL
+CHI-1147,"Omar Kowalski","3418 W North Ave, Chicago, IL",41.910915,-87.710763,09:00,12:00,SMALL
+CHI-1148,"Hannah O'Brien","1873 W Diversey Ave, Chicago, IL",41.932638,-87.673262,09:00,17:00,LARGE
+CHI-1149,"Elena Williams","1063 W North Ave, Chicago, IL",41.910915,-87.653602,09:00,12:00,MEDIUM
+CHI-1150,"Ali Hardware","5337 S Kimbark Ave, Chicago, IL",41.785335,-87.596246,10:00,12:00,LARGE
+CHI-1151,"Murphy Print Lab","1180 W Diversey Ave, Chicago, IL",41.932638,-87.656442,09:00,12:00,SMALL
+CHI-1152,"Priya Nguyen","5351 S Hoyne Ave, Chicago, IL",41.785082,-87.678772,13:00,17:00,MEDIUM
+CHI-1153,"Michael Okafor","1247 N Southport Ave, Chicago, IL",41.904524,-87.661782,13:00,17:00,SMALL
+CHI-1154,"Luis Chen","1465 N Leavitt St, Chicago, IL",41.908471,-87.6812,15:00,17:00,MEDIUM
+CHI-1155,"Grace Chen","1383 W Belmont Ave, Chicago, IL",41.939879,-87.661369,09:00,17:00,SMALL
+CHI-1156,"Ali Community Pantry","736 N Halsted St, Chicago, IL",41.895274,-87.647218,13:00,17:00,SMALL
+CHI-1157,"Emily Brown","2713 N Southport Ave, Chicago, IL",41.931063,-87.661782,13:00,17:00,MEDIUM
+CHI-1158,"Kevin Hernandez","2563 N Leavitt St, Chicago, IL",41.928348,-87.6812,09:00,17:00,SMALL
+CHI-1159,"Novak Community Pantry","2144 S Leavitt St, Chicago, IL",41.843138,-87.6812,13:00,17:00,LARGE
+CHI-1160,"James Chen","830 W Fullerton Ave, Chicago, IL",41.925397,-87.647946,11:00,13:00,SMALL
+CHI-1161,"Grace Garcia","3753 N Sacramento Ave, Chicago, IL",41.94989,-87.700618,13:00,17:00,SMALL
+CHI-1162,"Elena Kim","1733 N Wolcott Ave, Chicago, IL",41.913322,-87.673918,09:00,12:00,MEDIUM
+CHI-1163,"Carlos Hernandez","2720 S Racine Ave, Chicago, IL",41.83271,-87.656927,12:00,14:00,SMALL
+CHI-1164,"Priya Kim","100 N Halsted St, Chicago, IL",41.88376,-87.647218,13:00,17:00,SMALL
+CHI-1165,"Maria Ali","1562 N Sacramento Ave, Chicago, IL",41.910227,-87.700618,15:00,17:00,MEDIUM
+CHI-1166,"Mei Novak","1393 W Cermak Rd, Chicago, IL",41.842124,-87.661612,10:00,12:00,SMALL
+CHI-1167,"Carlos Chen","419 W 31st St, Chicago, IL",41.825831,-87.63797,09:00,12:00,SMALL
+CHI-1168,"Priya Garcia","3592 N Wolcott Ave, Chicago, IL",41.946975,-87.673918,09:00,12:00,SMALL
+CHI-1169,"Emily Chen","3008 N Kedzie Ave, Chicago, IL",41.936403,-87.705472,13:00,17:00,SMALL
+CHI-1170,"James Nguyen","3081 W 26th St, Chicago, IL",41.834883,-87.702584,13:00,17:00,MEDIUM
+CHI-1171,"Okafor Hardware","959 W Montrose Ave, Chicago, IL",41.961602,-87.651077,13:00,17:00,SMALL
+CHI-1172,"Kowalski Bike Shop","1391 N Kedzie Ave, Chicago, IL",41.907131,-87.705472,15:00,17:00,SMALL
+CHI-1173,"Aisha Rodriguez","2516 N Ashland Ave, Chicago, IL",41.927497,-87.666636,09:00,11:00,SMALL
+CHI-1174,"Brown Bookstore","4395 N Sacramento Ave, Chicago, IL",41.961512,-87.700618,13:00,17:00,SMALL
+CHI-1175,"Omar Garcia","1113 W Belmont Ave, Chicago, IL",41.939879,-87.654815,15:00,17:00,MEDIUM
+CHI-1176,"Hannah Garcia","2639 W Fullerton Ave, Chicago, IL",41.925397,-87.691855,09:00,12:00,MEDIUM
+CHI-1177,"Sofia Patel","3853 N Kedzie Ave, Chicago, IL",41.9517,-87.705472,13:00,17:00,LARGE
+CHI-1178,"Tyrone Murphy","1319 S Hoyne Ave, Chicago, IL",41.858072,-87.678772,09:00,12:00,MEDIUM
+CHI-1179,"Daniel Ali","4275 N Racine Ave, Chicago, IL",41.95934,-87.656927,12:00,14:00,LARGE
+CHI-1180,"Omar Novak","2525 N Halsted St, Chicago, IL",41.92766,-87.647218,09:00,17:00,MEDIUM
+CHI-1181,"Tyrone Murphy","1605 N Hoyne Ave, Chicago, IL",41.911005,-87.678772,10:00,12:00,SMALL
+CHI-1182,"Sofia Chen","4758 N Racine Ave, Chicago, IL",41.968083,-87.656927,10:00,12:00,MEDIUM
+CHI-1183,"Lopez Bike Shop","1321 E 51st St, Chicago, IL",41.789626,-87.595736,14:00,16:00,SMALL
+CHI-1184,"James Lopez","1089 W Belmont Ave, Chicago, IL",41.939879,-87.654233,10:00,12:00,SMALL
+CHI-1185,"Fatima Patel","4219 N Pulaski Rd, Chicago, IL",41.958326,-87.72489,10:00,12:00,SMALL
+CHI-1186,"Patel Bike Shop","1720 N Central Park Ave, Chicago, IL",41.913087,-87.715181,13:00,17:00,SMALL
+CHI-1187,"Grace Patel","1347 S Leavitt St, Chicago, IL",41.857565,-87.6812,10:00,12:00,SMALL
+CHI-1188,"Elena Williams","3434 W Montrose Ave, Chicago, IL",41.961602,-87.711152,13:00,17:00,SMALL
+CHI-1189,"Hannah Williams","3248 W Fullerton Ave, Chicago, IL",41.925397,-87.706637,09:00,12:00,SMALL
+CHI-1190,"Priya Murphy","3034 N Sheffield Ave, Chicago, IL",41.936874,-87.652073,09:00,17:00,LARGE
+CHI-1191,"Sofia Ali","1297 W Armitage Ave, Chicago, IL",41.918156,-87.659281,15:00,17:00,SMALL
+CHI-1192,"Sofia Novak","4819 S Damen Ave, Chicago, IL",41.794712,-87.676345,09:00,17:00,SMALL
+CHI-1193,"Daniel Garcia","4515 S Leavitt St, Chicago, IL",41.800216,-87.6812,11:00,13:00,LARGE
+CHI-1194,"Michael Williams","3267 N Sheffield Ave, Chicago, IL",41.941092,-87.652073,13:00,17:00,LARGE
+CHI-1195,"Rivera Coffee Roasters","1528 W Madison St, Chicago, IL",41.88195,-87.664888,09:00,17:00,LARGE
+CHI-1196,"Luis O'Brien","4756 N California Ave, Chicago, IL",41.968047,-87.695763,13:00,17:00,SMALL
+CHI-1197,"Hannah Lopez","1990 S Ashland Ave, Chicago, IL",41.845925,-87.666636,09:00,17:00,MEDIUM
+CHI-1198,"Michael Ali","2643 W Division St, Chicago, IL",41.903673,-87.691952,09:00,12:00,LARGE
+CHI-1199,"James Okafor","941 E 55th St, Chicago, IL",41.782384,-87.60496,11:00,13:00,SMALL
+CHI-1200,"Grace Williams","3062 N Central Park Ave, Chicago, IL",41.937381,-87.715181,09:00,12:00,SMALL

@@ -1,0 +1,10 @@
+data/
+**/build/
+**/.gradle/
+frontend/node_modules/
+frontend/dist/
+frontend/coverage/
+.git/
+benchmarks/results/
+docs/
+*.log

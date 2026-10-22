@@ -1,0 +1,92 @@
+{
+  "generatedAt" : "2026-10-22T00:48:28.868716Z",
+  "api" : "http://localhost:8080",
+  "pingsPerDriverPerSecond" : 1.0,
+  "measuredSecondsPerLevel" : 60,
+  "warmupSecondsPerLevel" : 10,
+  "levels" : [ {
+    "drivers" : 50,
+    "offeredPingsPerSecond" : 50.0,
+    "acceptedPingsPerSecond" : 50.8,
+    "errors" : 0,
+    "httpLatency" : {
+      "count" : 3050,
+      "p50Millis" : 4.561917,
+      "p95Millis" : 10.839042,
+      "p99Millis" : 23.027833,
+      "maxMillis" : 71.372709,
+      "meanMillis" : 5.76
+    },
+    "pingToDispatcherLatency" : {
+      "count" : 3000,
+      "p50Millis" : 4.363,
+      "p95Millis" : 10.581,
+      "p99Millis" : 22.243,
+      "maxMillis" : 71.899,
+      "meanMillis" : 5.54
+    }
+  }, {
+    "drivers" : 100,
+    "offeredPingsPerSecond" : 100.0,
+    "acceptedPingsPerSecond" : 101.7,
+    "errors" : 0,
+    "httpLatency" : {
+      "count" : 6099,
+      "p50Millis" : 3.097916,
+      "p95Millis" : 7.898375,
+      "p99Millis" : 21.779458,
+      "maxMillis" : 77.021416,
+      "meanMillis" : 4.08
+    },
+    "pingToDispatcherLatency" : {
+      "count" : 6000,
+      "p50Millis" : 2.985,
+      "p95Millis" : 7.611,
+      "p99Millis" : 21.42,
+      "maxMillis" : 79.376,
+      "meanMillis" : 3.97
+    }
+  }, {
+    "drivers" : 200,
+    "offeredPingsPerSecond" : 200.0,
+    "acceptedPingsPerSecond" : 203.3,
+    "errors" : 0,
+    "httpLatency" : {
+      "count" : 12199,
+      "p50Millis" : 2.510458,
+      "p95Millis" : 6.199042,
+      "p99Millis" : 21.287709,
+      "maxMillis" : 116.726375,
+      "meanMillis" : 3.25
+    },
+    "pingToDispatcherLatency" : {
+      "count" : 12000,
+      "p50Millis" : 2.423,
+      "p95Millis" : 6.066,
+      "p99Millis" : 21.681,
+      "maxMillis" : 116.048,
+      "meanMillis" : 3.17
+    }
+  }, {
+    "drivers" : 400,
+    "offeredPingsPerSecond" : 400.0,
+    "acceptedPingsPerSecond" : 406.7,
+    "errors" : 0,
+    "httpLatency" : {
+      "count" : 24400,
+      "p50Millis" : 1.665083,
+      "p95Millis" : 5.044083,
+      "p99Millis" : 33.482625,
+      "maxMillis" : 204.145541,
+      "meanMillis" : 3.05
+    },
+    "pingToDispatcherLatency" : {
+      "count" : 24001,
+      "p50Millis" : 1.613,
+      "p95Millis" : 4.79,
+      "p99Millis" : 32.865,
+      "maxMillis" : 204.256,
+      "meanMillis" : 2.98
+    }
+  } ]
+}
